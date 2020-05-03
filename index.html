@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>首页</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- favicon
+		============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- Google Fonts
+      ============================================ -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+    <!-- Bootstrap CSS
+      ============================================ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap CSS
+      ============================================ -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- owl.carousel CSS
+      ============================================ -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.transitions.css">
+    <!-- animate CSS
+      ============================================ -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- normalize CSS
+      ============================================ -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- meanmenu icon CSS
+      ============================================ -->
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <!-- main CSS
+      ============================================ -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- educate icon CSS
+      ============================================ -->
+    <link rel="stylesheet" href="css/educate-custon-icon.css">
+    <!-- morrisjs CSS
+      ============================================ -->
+    <link rel="stylesheet" href="css/morrisjs/morris.css">
+    <!-- mCustomScrollbar CSS
+      ============================================ -->
+    <link rel="stylesheet" href="css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <!-- metisMenu CSS
+      ============================================ -->
+    <link rel="stylesheet" href="css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="css/metisMenu/metisMenu-vertical.css">
+    <!-- calendar CSS
+      ============================================ -->
+    <link rel="stylesheet" href="css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="css/calendar/fullcalendar.print.min.css">
+    <!-- x-editor CSS
+      ============================================ -->
+    <link rel="stylesheet" href="css/editor/select2.css">
+    <link rel="stylesheet" href="css/editor/datetimepicker.css">
+    <link rel="stylesheet" href="css/editor/bootstrap-editable.css">
+    <link rel="stylesheet" href="css/editor/x-editor-style.css">
+    <!-- normalize CSS
+      ============================================ -->
+    <link rel="stylesheet" href="css/data-table/bootstrap-table.css">
+    <link rel="stylesheet" href="css/data-table/bootstrap-editable.css">
+    <!-- style CSS
+      ============================================ -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive CSS
+      ============================================ -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- modernizr JS
+      ============================================ -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  </head>
+
+  <body style="overflow: hidden;">
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+        your experience.
+      </p>
+    <![endif]-->
+    <!-- Start Left menu area -->
+    <div class="left-sidebar-pro">
+      <nav id="sidebar" class="">
+        <div class="sidebar-header">
+          <a href="index.html"
+            ><img class="main-logo" src="img/logo/logo.png" alt=""
+          /></a>
+          <strong
+            ><a href="index.html"><img src="img/logo/logosn.png" alt="" /></a
+          ></strong>
+        </div>
+        <div class="left-custom-menu-adp-wrap comment-scrollbar">
+          <nav class="sidebar-nav left-sidebar-menu-pro">
+            <ul class="metismenu" id="menu1">
+              <li class="active">
+                <a class="has-arrow" aria-expanded="false"
+                  ><span
+                    class="fa fa-users fa-lg icon-wrap"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="mini-click-non">患者管理</span></a
+                >
+                <ul class="submenu-angle" aria-expanded="false">
+                  <li data-src="patient.html">
+                    <a title="All Library"
+                      ><span class="mini-sub-pro">患者列表</span></a
+                    >
+                  </li>
+                  <li data-src="inspection.html">
+                    <a title="Add Library"
+                      ><span class="mini-sub-pro">查询检查记录</span></a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="has-arrow" aria-expanded="false"
+                  ><span
+                    class="fa fa-hospital-o icon-wrap"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="mini-click-non">医院管理</span></a
+                >
+                <ul class="submenu-angle" aria-expanded="false">
+                  <li data-src="hospital-group.html">
+                    <a title="Departments List"
+                      ><span class="mini-sub-pro">医院分组信息</span></a
+                    >
+                  </li>
+                  <li data-src="hospital.html">
+                    <a title="Add Departments"
+                      ><span class="mini-sub-pro">医院信息</span></a
+                    >
+                  </li>
+                  <li data-src="expert.html">
+                    <a title="Edit Departments"
+                      ><span class="mini-sub-pro">专家端信息</span></a
+                    >
+                  </li>
+                  <li data-src="collector.html">
+                    <a title="Professor Profile"
+                      ><span class="mini-sub-pro">采集端信息</span></a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="has-arrow" aria-expanded="false"
+                  ><span
+                    class="fa fa-user-circle-o icon-wrap"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="mini-click-non">账户管理</span></a
+                >
+                <ul class="submenu-angle" aria-expanded="false">
+                  <li data-src="admin.html">
+                    <a title="Inbox"
+                      ><span class="mini-sub-pro">账号信息</span></a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </nav>
+    </div>
+    <!-- End Left menu area -->
+    <!-- Start Welcome area -->
+    <div class="all-content-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="logo-pro">
+              <a href="index.html"
+                ><img class="main-logo" src="img/logo/logo.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-advance-area">
+        <div class="header-top-area">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="header-top-wraper">
+                  <div class="row">
+                    <div class="col-lg-1 col-md-0 col-sm-1 col-xs-12">
+                      <div class="menu-switcher-pro">
+                        <button
+                          type="button"
+                          id="sidebarCollapse"
+                          class="btn bar-button-pro header-drl-controller-btn btn-info navbar-btn"
+                        >
+                          <i class="educate-icon educate-nav"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
+                      <div class="header-top-menu tabl-d-n">
+                        <ul class="nav navbar-nav mai-top-nav"></ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                      <div class="header-right-info">
+                        <ul
+                          class="nav navbar-nav mai-top-nav header-right-menu"
+                        >
+                          <li class="nav-item">
+                            <a
+                              href="#"
+                              data-toggle="dropdown"
+                              role="button"
+                              aria-expanded="false"
+                              class="nav-link dropdown-toggle"
+                            >
+                              <img src="img/doc.png" alt="" />
+                              <span class="admin-name">赵晨宇</span>
+                              <i
+                                class="fa fa-angle-down edu-icon edu-down-arrow"
+                              ></i>
+                            </a>
+                            <ul
+                              role="menu"
+                              class="dropdown-header-top author-log dropdown-menu animated zoomIn"
+                            >
+                              <li>
+                                <a href="#"
+                                  ><span
+                                    class="edu-icon edu-locked author-log-ic"
+                                  ></span
+                                  >Log Out</a
+                                >
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="nav-item nav-setting-open">
+                            <a
+                              href="#"
+                              data-toggle="dropdown"
+                              role="button"
+                              aria-expanded="false"
+                              class="nav-link dropdown-toggle"
+                              ><i class="educate-icon educate-menu"></i
+                            ></a>
+
+                            <div
+                              role="menu"
+                              class="admintab-wrap menu-setting-wrap menu-setting-wrap-bg dropdown-menu animated zoomIn"
+                            >
+                              <ul class="nav nav-tabs custon-set-tab">
+                                <li>
+                                  <a data-toggle="tab" href="#Settings"
+                                    >Settings</a
+                                  >
+                                </li>
+                              </ul>
+
+                              <div class="tab-content custom-bdr-nt">
+                                <div id="Settings" class="tab-pane fade">
+                                  <div class="setting-panel-area">
+                                    <div class="note-heading-indicate">
+                                      <h2>
+                                        <i class="fa fa-gears"></i> Settings
+                                        Panel
+                                      </h2>
+                                      <p>
+                                        You have 20 Settings. 5 not completed.
+                                      </p>
+                                    </div>
+                                    <ul class="setting-panel-list">
+                                      <li>
+                                        <div class="checkbox-setting-pro">
+                                          <div class="checkbox-title-pro">
+                                            <h2>Show notifications</h2>
+                                            <div class="ts-custom-check">
+                                              <div class="onoffswitch">
+                                                <input
+                                                  type="checkbox"
+                                                  name="collapsemenu"
+                                                  class="onoffswitch-checkbox"
+                                                  id="example"
+                                                />
+                                                <label
+                                                  class="onoffswitch-label"
+                                                  for="example"
+                                                >
+                                                  <span
+                                                    class="onoffswitch-inner"
+                                                  ></span>
+                                                  <span
+                                                    class="onoffswitch-switch"
+                                                  ></span>
+                                                </label>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </li>
+                                      <li>
+                                        <div class="checkbox-setting-pro">
+                                          <div class="checkbox-title-pro">
+                                            <h2>Disable Chat</h2>
+                                            <div class="ts-custom-check">
+                                              <div class="onoffswitch">
+                                                <input
+                                                  type="checkbox"
+                                                  name="collapsemenu"
+                                                  class="onoffswitch-checkbox"
+                                                  id="example3"
+                                                />
+                                                <label
+                                                  class="onoffswitch-label"
+                                                  for="example3"
+                                                >
+                                                  <span
+                                                    class="onoffswitch-inner"
+                                                  ></span>
+                                                  <span
+                                                    class="onoffswitch-switch"
+                                                  ></span>
+                                                </label>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </li>
+                                      <li>
+                                        <div class="checkbox-setting-pro">
+                                          <div class="checkbox-title-pro">
+                                            <h2>Enable history</h2>
+                                            <div class="ts-custom-check">
+                                              <div class="onoffswitch">
+                                                <input
+                                                  type="checkbox"
+                                                  name="collapsemenu"
+                                                  class="onoffswitch-checkbox"
+                                                  id="example4"
+                                                />
+                                                <label
+                                                  class="onoffswitch-label"
+                                                  for="example4"
+                                                >
+                                                  <span
+                                                    class="onoffswitch-inner"
+                                                  ></span>
+                                                  <span
+                                                    class="onoffswitch-switch"
+                                                  ></span>
+                                                </label>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </li>
+                                      <li>
+                                        <div class="checkbox-setting-pro">
+                                          <div class="checkbox-title-pro">
+                                            <h2>Show charts</h2>
+                                            <div class="ts-custom-check">
+                                              <div class="onoffswitch">
+                                                <input
+                                                  type="checkbox"
+                                                  name="collapsemenu"
+                                                  class="onoffswitch-checkbox"
+                                                  id="example7"
+                                                />
+                                                <label
+                                                  class="onoffswitch-label"
+                                                  for="example7"
+                                                >
+                                                  <span
+                                                    class="onoffswitch-inner"
+                                                  ></span>
+                                                  <span
+                                                    class="onoffswitch-switch"
+                                                  ></span>
+                                                </label>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </li>
+                                      <li>
+                                        <div class="checkbox-setting-pro">
+                                          <div class="checkbox-title-pro">
+                                            <h2>Update everyday</h2>
+                                            <div class="ts-custom-check">
+                                              <div class="onoffswitch">
+                                                <input
+                                                  type="checkbox"
+                                                  name="collapsemenu"
+                                                  checked=""
+                                                  class="onoffswitch-checkbox"
+                                                  id="example2"
+                                                />
+                                                <label
+                                                  class="onoffswitch-label"
+                                                  for="example2"
+                                                >
+                                                  <span
+                                                    class="onoffswitch-inner"
+                                                  ></span>
+                                                  <span
+                                                    class="onoffswitch-switch"
+                                                  ></span>
+                                                </label>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </li>
+                                      <li>
+                                        <div class="checkbox-setting-pro">
+                                          <div class="checkbox-title-pro">
+                                            <h2>Global search</h2>
+                                            <div class="ts-custom-check">
+                                              <div class="onoffswitch">
+                                                <input
+                                                  type="checkbox"
+                                                  name="collapsemenu"
+                                                  checked=""
+                                                  class="onoffswitch-checkbox"
+                                                  id="example6"
+                                                />
+                                                <label
+                                                  class="onoffswitch-label"
+                                                  for="example6"
+                                                >
+                                                  <span
+                                                    class="onoffswitch-inner"
+                                                  ></span>
+                                                  <span
+                                                    class="onoffswitch-switch"
+                                                  ></span>
+                                                </label>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </li>
+                                      <li>
+                                        <div class="checkbox-setting-pro">
+                                          <div class="checkbox-title-pro">
+                                            <h2>Offline users</h2>
+                                            <div class="ts-custom-check">
+                                              <div class="onoffswitch">
+                                                <input
+                                                  type="checkbox"
+                                                  name="collapsemenu"
+                                                  checked=""
+                                                  class="onoffswitch-checkbox"
+                                                  id="example5"
+                                                />
+                                                <label
+                                                  class="onoffswitch-label"
+                                                  for="example5"
+                                                >
+                                                  <span
+                                                    class="onoffswitch-inner"
+                                                  ></span>
+                                                  <span
+                                                    class="onoffswitch-switch"
+                                                  ></span>
+                                                </label>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main_right" style="width: 100%; height: 100%;">
+      <iframe
+        frameborder="0"
+        scrolling="yes"
+        style="width: 100%; height: 100%;"
+        src="firstpage.html"
+        id="my_iframe"
+      ></iframe>
+    </div>
+
+  <!-- jquery
+		============================================ -->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <!-- bootstrap JS
+      ============================================ -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- wow JS
+      ============================================ -->
+    <script src="js/wow.min.js"></script>
+    <!-- price-slider JS
+      ============================================ -->
+    <script src="js/jquery-price-slider.js"></script>
+    <!-- meanmenu JS
+      ============================================ -->
+    <script src="js/jquery.meanmenu.js"></script>
+    <!-- owl.carousel JS
+      ============================================ -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- sticky JS
+      ============================================ -->
+    <script src="js/jquery.sticky.js"></script>
+    <!-- scrollUp JS
+      ============================================ -->
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <!-- mCustomScrollbar JS
+      ============================================ -->
+    <script src="js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/scrollbar/mCustomScrollbar-active.js"></script>
+    <!-- metisMenu JS
+      ============================================ -->
+    <script src="js/metisMenu/metisMenu.min.js"></script>
+    <script src="js/metisMenu/metisMenu-active.js"></script>
+    <!-- data table JS
+      ============================================ -->
+    <script src="js/data-table/bootstrap-table.js"></script>
+    <script src="js/data-table/bootstrap-table-zh-CN.js"></script>
+    <script src="js/data-table/tableExport.js"></script>
+    <script src="js/data-table/data-table-active.js"></script>
+    <script src="js/data-table/bootstrap-table-editable.js"></script>
+    <script src="js/data-table/bootstrap-editable.js"></script>
+    <script src="js/data-table/bootstrap-table-resizable.js"></script>
+    <script src="js/data-table/colResizable-1.5.source.js"></script>
+    <script src="js/data-table/bootstrap-table-export.js"></script>
+    <!--  editable JS
+      ============================================ -->
+    <script src="js/editable/jquery.mockjax.js"></script>
+    <script src="js/editable/mock-active.js"></script>
+    <script src="js/editable/select2.js"></script>
+    <script src="js/editable/moment.min.js"></script>
+    <script src="js/editable/bootstrap-datetimepicker.js"></script>
+    <script src="js/editable/bootstrap-editable.js"></script>
+    <script src="js/editable/xediable-active.js"></script>
+    <!-- Chart JS
+      ============================================ -->
+    <script src="js/chart/jquery.peity.min.js"></script>
+    <script src="js/peity/peity-active.js"></script>
+    <!-- tab JS
+      ============================================ -->
+    <script src="js/tab.js"></script>
+    <!-- plugins JS
+      ============================================ -->
+    <script src="js/plugins.js"></script>
+    <!-- main JS
+      ============================================ -->
+    <script src="js/main.js"></script>
+    <!-- tawk chat JS
+      ============================================ -->
+    <script src="js/tawk-chat.js"></script>
+    <script>
+      $(function () {
+        $("#menu1 > li > ul > li").on("click", function () {
+          var address = $(this).attr("data-src");
+          $("iframe").attr("src", address);
+          document.title = $(this).children().children()[0].innerText;
+        });
+      });
+    </script>
+  </body>
+</html>
